@@ -1,0 +1,17 @@
+@font-face {
+  font-family: SohneWeb;
+  src: url("/SohneWeb-Dreiviertelfett.eot") format("eot");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: SohneWeb-Dreiviertelfett, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
