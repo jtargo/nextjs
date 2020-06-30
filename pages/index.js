@@ -18,7 +18,7 @@ const Home = () => {
 
       <footer>
         <a
-          href="https:/instagram.com/byvalet"
+          href="https://instagram.com/valetmiami"
           target="_blank"
           rel="noopener noreferrer"
         >
