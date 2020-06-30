@@ -1,63 +1,32 @@
 import Head from 'next/head'
 
-const Home = () => (
-  <div className="container">
-    <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+const Home = () => {
+  return (
+    <div className="container">
+      <Head>
+        <title>Valet - Miami Private Driver and Supercar Concierge</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head></div>
+
+    ,
 
     <main>
       <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        valet miami
       </h1>
 
-      <p className="description">
-        Get started by editing <code>pages/index.js</code>
-      </p>
 
-      <div className="grid">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
-        </a>
-
+      <footer>
         <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className="card"
+          href="https:/instagram.com/byvalet"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <h3>Examples &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
+        @instagram
         </a>
+      </footer>
 
-        <a
-          href="https://vercel.com/new?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className="card"
-        >
-          <h3>Deploy &rarr;</h3>
-          <p>
-            Instantly deploy your Next.js site to a public URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-
-    <footer>
-      <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Powered by <img src="/vercel.svg" alt="Vercel Logo" />
-      </a>
-    </footer>
-
-    <style jsx>{`
+      <style jsx>{`
       .container {
         min-height: 100vh;
         padding: 0 0.5rem;
@@ -79,7 +48,6 @@ const Home = () => (
       footer {
         width: 100%;
         height: 100px;
-        border-top: 1px solid #eaeaea;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -98,6 +66,11 @@ const Home = () => (
       a {
         color: inherit;
         text-decoration: none;
+        font-size: 1rem;
+      }
+
+      .a:hover {
+        color: #ccc;
       }
 
       .title a {
@@ -114,7 +87,7 @@ const Home = () => (
       .title {
         margin: 0;
         line-height: 1.15;
-        font-size: 4rem;
+        font-size: 7rem;
       }
 
       .title,
@@ -184,12 +157,12 @@ const Home = () => (
       }
     `}</style>
 
-    <style jsx global>{`
+      <style jsx global>{`
       html,
       body {
         padding: 0;
         margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        font-family: SohneWeb-Dreiviertelfett, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
       }
 
@@ -197,7 +170,8 @@ const Home = () => (
         box-sizing: border-box;
       }
     `}</style>
-  </div>
-)
+    </main>)
+}
 
 export default Home
+
