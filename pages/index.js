@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <>
       <Container>
-        <Title>valet miami</Title>
+        <Title>Valet Miami</Title>
 
         <Input
           placeholder="invite code"

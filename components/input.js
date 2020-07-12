@@ -5,11 +5,14 @@ export const Input = ({ ...inputProps }) => (
       {`
         .input {
           text-align: center;
-          padding: 0.5rem;
-          border: 1px solid #212122;
+          padding: 1.5rem;
+          border: 1px solid #5EDDC6;
           outline: none;
-          border-radius: 2px;
+          border-radius: 4px;
         }
+        .input:hover:active:focus {
+          border: 1px solid #329D8A;
+      }
       `}
     </style>
   </>
