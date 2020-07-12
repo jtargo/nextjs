@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <>
       <Container>
-        <Title>Valet Miami</Title>
+        <Title>VALET MIAMI</Title>
 
         <Input
           placeholder="invite code"
@@ -44,7 +44,7 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            @instagram
+            @valetmiami
           </a>
         </footer>
       </Container>
@@ -74,7 +74,7 @@ const Home = () => {
         }
 
         .title a {
-          color: #0070f3;
+          color: #212826;
           text-decoration: none;
         }
 

@@ -5,10 +5,10 @@ export const Input = ({ ...inputProps }) => (
       {`
         .input {
           text-align: center;
-          padding: 1.5rem;
-          border: 1px solid #5EDDC6;
+          padding: 0.7rem;
+          border: 1px solid #212826;
           outline: none;
-          border-radius: 4px;
+          border-radius: 10px;
         }
         .input:hover:active:focus {
           border: 1px solid #329D8A;

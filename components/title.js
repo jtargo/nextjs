@@ -5,8 +5,8 @@ export const Title = ({ children }) => (
       {`
         .title {
           margin: 0;
-          line-height: 3.15;
-          font-size: 5rem;
+          line-height: 2.15;
+          font-size: 7rem;
           text-align: center;
         }
       `}
