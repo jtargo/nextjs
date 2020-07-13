@@ -15,6 +15,9 @@ export const Input = ({ ...inputProps }) => (
         .input:hover:active:focus {
           border: 1px solid #329D8A;
       }
+      .button
+        background-color: #03b84d;
+        color: #fff;
       `}
     </style>
   </>
